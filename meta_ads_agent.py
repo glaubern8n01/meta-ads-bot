@@ -357,7 +357,11 @@ class ToolExecutor:
         fields = "campaign_name,adset_name,ad_name,impressions,reach,frequency,clicks,unique_clicks,ctr,cpc,cpm,spend,actions,cost_per_action_type,video_thruplay_watched_actions,video_play_actions"
         params = {"fields": fields, "time_range": json.dumps({"since": inicio, "until": fim}), "level": inp.get("nivel", "campaign")}
         if inp.get("breakdowns"): params["breakdowns"] = ",".join(inp["breakdowns"])
-        return self.api.get(f"{inp['object_id']}/insights", params)
+        res = self.api.get(f"{inp['object_id']}/insights", params)
+        if isinstance(res, dict):
+            res["periodo_analisado"] = inp.get("periodo", "mes_atual").upper()
+            res["intervalo"] = f"{inicio} ate {fim}"
+        return res
 
     def __gerar_relatorio(self, inp):
         hoje = datetime.now().strftime("%Y-%m-%d")
@@ -473,9 +477,10 @@ REGRAS CRÍTICAS DE EXPERIÊNCIA DO USUÁRIO (Obrigatório seguir):
 7. REGRAS PARA CLIENTES LEIGOS (Mecorcamp):
    - Se houver apenas 1 Conta de Anúncios na listagem acima, considere-a SELECIONADA AUTOMATICAMENTE. Nunca pergunte qual conta ou peça o ID se houver apenas uma opção.
    - REAÇÃO A NÚMEROS: Se o usuário digitar apenas um número (ex: "1"), verifique qual era a opção correspondente no último menu e EXECUTE a ferramenta necessária IMEDIATAMENTE.
-   - Por exemplo: Se o usuário digitar "1" no menu inicial e houver apenas 1 conta, você deve chamar a ferramenta `obter_insights` para essa conta no período `mes_atual` na hora, sem perguntar mais nada.
+   - Forneça sempre o período: Ao mostrar métricas, diga explicitamente: "Aqui estão os resultados de [PERÍODO]".
+   - Se o usuário pedir "hoje", "ontem" ou outro período, CHAME a ferramenta `obter_insights` de novo com o novo parâmetro, mesmo que tenha acabado de mostrar outro período. Não diga "já forneci", apenas atualize os dados.
 
-   - Siga esta ordem de períodos para sugerir ou usar: 1. Hoje | 2. Ontem | 3. Mês Atual | 4. Últimos 7 dias. Se o usuário disser apenas "analisar", traga o "Mês Atual" por padrão mas pergunte se ele quer ver outro período.
+   - Siga esta ordem de períodos para sugerir ou usar: 1. Hoje | 2. Ontem | 3. Mês Atual | 4. Últimos 7 dias. Se o usuário disser apenas "analisar", traga o "Mês Atual" por padrão.
 
 HOJE: {datetime.now().strftime('%d/%m/%Y %H:%M')}"""
 
