@@ -563,6 +563,11 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         "Basta me enviar o número da opção ou me dizer o que precisa!"
     )
     await update.message.reply_text(welcome_text, parse_mode='Markdown')
+    
+    # CRITICAL: Injetar a mensagem de boas-vindas no histórico para o GPT ter contexto do menu
+    if agent_instance:
+        agent_instance.historico.append({"role": "assistant", "content": welcome_text})
+        agent_instance._salvar_historico()
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user_text = update.message.text
