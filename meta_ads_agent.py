@@ -174,12 +174,24 @@ class ToolExecutor:
 
     def __listar_contas(self, _): 
         if not ALLOWED_ACCOUNTS: return self.contas
-        # Filtrar apenas as contas permitidas no .env
-        filtradas = {
-            **self.contas,
-            "ad_accounts": [a for a in self.contas["ad_accounts"] if a["id"].replace("act_", "") in ALLOWED_ACCOUNTS or a["id"] in ALLOWED_ACCOUNTS]
+        
+        # Filtrar Contas de Anúncios
+        ad_filtradas = [a for a in self.contas.get("ad_accounts", []) 
+                        if a["id"].replace("act_", "") in ALLOWED_ACCOUNTS or a["id"] in ALLOWED_ACCOUNTS]
+        
+        # Filtrar Páginas e Instagram (Baseado no nome do cliente para ser mais inteligente)
+        # Se o CLIENT_NAME estiver em 'Mecorcamp', só puxa o que tiver esse nome
+        paginas_filtradas = [p for p in self.contas.get("paginas", []) 
+                             if CLIENT_NAME.lower() in p["name"].lower()] if CLIENT_NAME != "Usuário" else self.contas.get("paginas", [])
+        
+        ig_filtradas = [ig for ig in self.contas.get("instagram_accounts", []) 
+                        if CLIENT_NAME.lower() in ig.get("username", "").lower()] if CLIENT_NAME != "Usuário" else self.contas.get("instagram_accounts", [])
+
+        return {
+            "ad_accounts": ad_filtradas,
+            "paginas": paginas_filtradas,
+            "instagram_accounts": ig_filtradas
         }
-        return filtradas
 
     def __listar_campanhas(self, inp):
         params = {"fields": "id,name,status,objective,daily_budget,lifetime_budget,start_time,stop_time,created_time,spend_cap"}
