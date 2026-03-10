@@ -34,6 +34,32 @@ BASE_URL        = "https://graph.facebook.com/v25.0"
 SAVE_DIR        = Path("./dados_meta")
 SAVE_DIR.mkdir(exist_ok=True)
 
+# --- Configurações Comerciais (Isolamento e Limites) ---
+ALLOWED_ACCOUNTS = os.getenv("ALLOWED_ACCOUNTS", "").split(",")
+ALLOWED_ACCOUNTS = [a.strip() for a in ALLOWED_ACCOUNTS if a.strip()]
+DAILY_MESSAGE_LIMIT = int(os.getenv("DAILY_MESSAGE_LIMIT", "100"))
+CLIENT_NAME = os.getenv("CLIENT_NAME", "Usuário") # Nome amigável do cliente (ex: Mecorcamp)
+CLIENT_ID = os.getenv("CLIENT_ID", "pessoal")    # Identificador interno
+# -----------------------------------------------------
+
+# --- Gerenciamento de Uso ---
+def check_usage():
+    if DAILY_MESSAGE_LIMIT <= 0: return True # Sem limite
+    hoje = datetime.now().strftime("%Y-%m-%d")
+    log_path = SAVE_DIR / "daily_usage.json"
+    usage = {}
+    if log_path.exists():
+        with open(log_path, "r") as f: usage = json.load(f)
+    
+    current = usage.get(hoje, 0)
+    if current >= DAILY_MESSAGE_LIMIT:
+        return False
+    
+    usage[hoje] = current + 1
+    with open(log_path, "w") as f: json.dump(usage, f)
+    return True
+# ----------------------------
+
 
 class MetaAPI:
     def __init__(self, token):
@@ -146,7 +172,14 @@ class ToolExecutor:
         save_json(result, f"tool_{name}_{int(time.time())}.json")
         return json.dumps(result, ensure_ascii=False, default=str)
 
-    def __listar_contas(self, _): return self.contas
+    def __listar_contas(self, _): 
+        if not ALLOWED_ACCOUNTS: return self.contas
+        # Filtrar apenas as contas permitidas no .env
+        filtradas = {
+            **self.contas,
+            "ad_accounts": [a for a in self.contas["ad_accounts"] if a["id"].replace("act_", "") in ALLOWED_ACCOUNTS or a["id"] in ALLOWED_ACCOUNTS]
+        }
+        return filtradas
 
     def __listar_campanhas(self, inp):
         params = {"fields": "id,name,status,objective,daily_budget,lifetime_budget,start_time,stop_time,created_time,spend_cap"}
@@ -468,7 +501,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     # Generate the list of accounts specifically for the welcome message
     contas_list = ""
     if agent_instance and (agent_instance.contas.get("ad_accounts") or agent_instance.contas.get("paginas") or agent_instance.contas.get("instagram_accounts")):
-        contas_list = "\n\nContas encontradas (você pode se referir a elas pelo número):\n"
+        contas_list = "\n\nSua Estrutura no Meta:\n"
         global_idx = 1
         for a in agent_instance.contas.get("ad_accounts", []):
             contas_list += f"\n{global_idx}. Conta de Anúncios | {a.get('name')}"
@@ -481,19 +514,24 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             global_idx += 1
 
     welcome_text = (
-        "👋 Olá! Sou o seu Agente de Meta Ads conversando via Telegram.\n\n"
-        "Opções Iniciais:\n\n"
-        "1. Subir nova campanha\n\n"
-        "2. Tirar Relatórios de Performance\n\n"
-        "3. Avaliar Métricas Recentes\n"
+        f"🚀 **Olá, {CLIENT_NAME}!**\n\n"
+        "Seu Agente de Anúncios Profissional está pronto!\n"
+        "O que posso fazer por você hoje?\n\n"
+        "1. Criar Campanhas e Escalar em Lote\n"
+        "2. Espionar a Biblioteca de Anúncios do Meta\n"
+        "3. Analisar métricas e dar dicas de performance\n"
         f"{contas_list}\n\n"
-        "Você pode me falar o que deseja e selecionar as contas/campanhas via números!"
+        "Basta me enviar uma mensagem ou um vídeo/imagem para começarmos!"
     )
-    await update.message.reply_text(welcome_text)
+    await update.message.reply_text(welcome_text, parse_mode='Markdown')
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user_text = update.message.text
     msg = await update.message.reply_text("⏳ Puxando os dados no Meta e pensando...")
+    if not check_usage():
+        await msg.edit_text(f"⚠️ Limite diário de {DAILY_MESSAGE_LIMIT} mensagens atingido para este robô. Tente novamente amanhã!")
+        return
+
     try:
         import asyncio
         loop = asyncio.get_running_loop()
@@ -531,6 +569,10 @@ async def handle_media(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     context_msg = f"[SISTEMA: O Usuário enviou um(a) {file_type}. O caminho absoluto deste arquivo no sistema local é: {file_path.absolute()} . Use este caminho quando precisar do criativo.]\n\nUsuário diz: {msg_caption}"
     
     msg = await update.message.reply_text(f"⏳ Recebi o(a) {file_type}! Pensando no próximo passo...")
+    if not check_usage():
+        await msg.edit_text(f"⚠️ Limite diário de {DAILY_MESSAGE_LIMIT} mensagens atingido. Tente novamente amanhã!")
+        return
+
     try:
         import asyncio
         loop = asyncio.get_running_loop()
