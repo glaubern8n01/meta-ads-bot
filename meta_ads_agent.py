@@ -470,6 +470,10 @@ REGRAS CRÍTICAS DE EXPERIÊNCIA DO USUÁRIO (Obrigatório seguir):
 4. Não peça confirmação passo a passo se o usuário já forneceu todas as informações necessárias na primeira mensagem. (Ex: "Crie um anúncio com esse texto e imagem" -> Se tem texto e a foto, execute a action de criar e depois criar_anuncio).
 5. Campanhas novas sempre nascem PAUSED. Antes de de deletar, confirme. Orçamentos em centavos (R$50=5000). Responda sempre de forma enumerada e espaçada.
 6. SEMPRE TENTE TRAZER O MAXIMO DE CAMPANHAS POSSIVES PARA A LISTAGEM PARA ENCONTRAR A CAMPANHA CORRETA, NUNCA TRUNQUE PARA TOP 5 OU TOP 10. Traga todas que tiverem o status ou tudo se não tiver nada filtrando.
+7. REGRAS PARA CLIENTES LEIGOS (Mecorcamp):
+   - Se houver apenas 1 Conta de Anúncios na listagem acima, considere-a SELECIONADA AUTOMATICAMENTE. Nunca pergunte qual conta ou peça o ID se houver apenas uma opção.
+   - Em vez de pedir IDs (act_123), peça nomes de campanhas ou use os números da lista (1, 2, 3).
+   - Seja proativo: se o usuário disser "analisar campanhas", e houver apenas 1 conta, pule a pergunta da conta e já liste as campanhas dessa conta.
 
 HOJE: {datetime.now().strftime('%d/%m/%Y %H:%M')}"""
 
@@ -524,30 +528,32 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
          agent_instance.historico.append({"role": "system", "content": agent_instance.system_prompt})
          agent_instance._salvar_historico()
          
-    # Generate the list of accounts specifically for the welcome message
-    contas_list = ""
-    if agent_instance and (agent_instance.contas.get("ad_accounts") or agent_instance.contas.get("paginas") or agent_instance.contas.get("instagram_accounts")):
-        contas_list = "\n\nSua Estrutura no Meta:\n"
+    # Gerar a saudação e lista de estrutura (Simplificado para cliente único)
+    ad_accounts = agent_instance.contas.get("ad_accounts", [])
+    if len(ad_accounts) == 1:
+        contas_info = f"🎯 Conectado à conta: **{ad_accounts[0].get('name')}**"
+    else:
+        contas_info = "Sua Estrutura no Meta:\n"
         global_idx = 1
-        for a in agent_instance.contas.get("ad_accounts", []):
-            contas_list += f"\n{global_idx}. Conta de Anúncios | {a.get('name')}"
+        for a in ad_accounts:
+            contas_info += f"\n{global_idx}. Conta de Anúncios | {a.get('name')}"
             global_idx += 1
         for p in agent_instance.contas.get("paginas", []):
-            contas_list += f"\n{global_idx}. Página Facebook | {p.get('name')}"
+            contas_info += f"\n{global_idx}. Página Facebook | {p.get('name')}"
             global_idx += 1
         for ig in agent_instance.contas.get("instagram_accounts", []):
-            contas_list += f"\n{global_idx}. Conta Instagram | @{ig.get('username','?')}"
+            contas_info += f"\n{global_idx}. Conta Instagram | @{ig.get('username','?')}"
             global_idx += 1
 
     welcome_text = (
         f"🚀 **Olá, {CLIENT_NAME}!**\n\n"
-        "Seu Agente de Anúncios Profissional está pronto!\n"
-        "O que posso fazer por você hoje?\n\n"
-        "1. Criar Campanhas e Escalar em Lote\n"
-        "2. Espionar a Biblioteca de Anúncios do Meta\n"
-        "3. Analisar métricas e dar dicas de performance\n"
-        f"{contas_list}\n\n"
-        "Basta me enviar uma mensagem ou um vídeo/imagem para começarmos!"
+        "Sou seu consultor de tráfego inteligente. Já analisei sua estrutura e estou pronto para gerenciar seus anúncios!\n\n"
+        f"{contas_info}\n\n"
+        "**O que deseja fazer agora?**\n"
+        "• Analisar o desempenho das campanhas atuais\n"
+        "• Criar um novo anúncio ou escala em lote\n"
+        "• Espionar a concorrência na biblioteca do Meta\n\n"
+        "Basta me dizer o que precisa!"
     )
     await update.message.reply_text(welcome_text, parse_mode='Markdown')
 
