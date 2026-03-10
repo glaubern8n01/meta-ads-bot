@@ -121,12 +121,10 @@ TOOLS = [
     {"type": "function", "function": {"name": "criar_conjunto", "description": "Cria um conjunto de anúncios com segmentação de público", "parameters": {"type": "object", "properties": {"ad_account_id": {"type": "string"}, "campaign_id": {"type": "string"}, "nome": {"type": "string"}, "orcamento_diario_centavos": {"type": "integer"}, "objetivo_otimizacao": {"type": "string", "enum": ["REACH","IMPRESSIONS","LINK_CLICKS","LANDING_PAGE_VIEWS","LEAD_GENERATION","CONVERSIONS","VIDEO_VIEWS"], "default": "LINK_CLICKS"}, "evento_cobranca": {"type": "string", "enum": ["IMPRESSIONS","LINK_CLICKS"], "default": "IMPRESSIONS"}, "paises": {"type": "array", "items": {"type": "string"}}, "idade_min": {"type": "integer", "default": 18}, "idade_max": {"type": "integer", "default": 65}, "generos": {"type": "array", "items": {"type": "integer"}}, "page_id": {"type": "string"}, "instagram_account_id": {"type": "string"}}, "required": ["ad_account_id", "campaign_id", "nome", "orcamento_diario_centavos"]}}},
     {"type": "function", "function": {"name": "editar_conjunto", "description": "Edita status, orçamento ou segmentação de um conjunto de anúncios", "parameters": {"type": "object", "properties": {"adset_id": {"type": "string"}, "nome": {"type": "string"}, "status": {"type": "string", "enum": ["ACTIVE","PAUSED","ARCHIVED","DELETED"]}, "orcamento_diario_centavos": {"type": "integer"}}, "required": ["adset_id"]}}},
     {"type": "function", "function": {"name": "fazer_upload_imagem", "description": "Faz upload de uma imagem para a conta de anúncios e retorna o hash", "parameters": {"type": "object", "properties": {"ad_account_id": {"type": "string"}, "caminho_imagem": {"type": "string"}}, "required": ["ad_account_id", "caminho_imagem"]}}},
-    {"type": "function", "function": {"name": "criar_criativo", "description": "Cria um criativo de anúncio (imagem + texto + link)", "parameters": {"type": "object", "properties": {"ad_account_id": {"type": "string"}, "page_id": {"type": "string"}, "titulo": {"type": "string"}, "corpo": {"type": "string"}, "descricao": {"type": "string"}, "url_destino": {"type": "string"}, "call_to_action": {"type": "string", "enum": ["LEARN_MORE","SHOP_NOW","SIGN_UP","CONTACT_US","GET_QUOTE","BOOK_NOW","DOWNLOAD","WATCH_MORE","APPLY_NOW","GET_OFFER"], "default": "LEARN_MORE"}, "image_hash": {"type": "string"}, "instagram_account_id": {"type": "string"}}, "required": ["ad_account_id", "page_id", "titulo", "corpo", "url_destino"]}}},
-    {"type": "function", "function": {"name": "listar_anuncios", "description": "Lista anúncios de um conjunto ou campanha", "parameters": {"type": "object", "properties": {"adset_id": {"type": "string"}, "campaign_id": {"type": "string"}, "ad_account_id": {"type": "string"}}}}},
-    {"type": "function", "function": {"name": "criar_anuncio", "description": "Cria um anúncio ligando um criativo a um conjunto de anúncios", "parameters": {"type": "object", "properties": {"ad_account_id": {"type": "string"}, "adset_id": {"type": "string"}, "creative_id": {"type": "string"}, "nome": {"type": "string"}, "status": {"type": "string", "enum": ["ACTIVE","PAUSED"], "default": "PAUSED"}}, "required": ["ad_account_id", "adset_id", "creative_id", "nome"]}}},
-    {"type": "function", "function": {"name": "obter_insights", "description": "Obtém métricas de performance: impressões, cliques, CTR, CPC, CPM, conversões, gasto", "parameters": {"type": "object", "properties": {"object_id": {"type": "string"}, "nivel": {"type": "string", "enum": ["account","campaign","adset","ad"], "default": "campaign"}, "periodo": {"type": "string", "enum": ["hoje","ontem","7dias","14dias","30dias","mes_atual","personalizado"], "default": "7dias"}, "data_inicio": {"type": "string"}, "data_fim": {"type": "string"}, "breakdowns": {"type": "array", "items": {"type": "string"}}}, "required": ["object_id"]}}},
     {"type": "function", "function": {"name": "gerar_relatorio", "description": "Gera relatório completo de performance e salva em JSON", "parameters": {"type": "object", "properties": {"ad_account_id": {"type": "string"}, "periodo": {"type": "string", "enum": ["7dias","30dias","mes_atual"], "default": "7dias"}, "salvar_arquivo": {"type": "boolean", "default": True}}, "required": ["ad_account_id"]}}},
     {"type": "function", "function": {"name": "instagram_insights", "description": "Obtém métricas da conta Instagram Business", "parameters": {"type": "object", "properties": {"instagram_account_id": {"type": "string"}, "periodo": {"type": "string", "enum": ["day","week","month","days_28"], "default": "week"}}, "required": ["instagram_account_id"]}}},
+    {"type": "function", "function": {"name": "fazer_upload_video", "description": "Faz upload de um vídeo para a conta de anúncios e retorna o video_id", "parameters": {"type": "object", "properties": {"ad_account_id": {"type": "string"}, "caminho_video": {"type": "string"}, "nome": {"type": "string"}}, "required": ["ad_account_id", "caminho_video"]}}},
+    {"type": "function", "function": {"name": "criar_criativo", "description": "Cria um criativo de anúncio (imagem ou vídeo + texto + link)", "parameters": {"type": "object", "properties": {"ad_account_id": {"type": "string"}, "page_id": {"type": "string"}, "titulo": {"type": "string"}, "corpo": {"type": "string"}, "descricao": {"type": "string"}, "url_destino": {"type": "string"}, "call_to_action": {"type": "string", "enum": ["LEARN_MORE","SHOP_NOW","SIGN_UP","CONTACT_US","GET_QUOTE","BOOK_NOW","DOWNLOAD","WATCH_MORE","APPLY_NOW","GET_OFFER"], "default": "LEARN_MORE"}, "image_hash": {"type": "string"}, "video_id": {"type": "string"}, "instagram_account_id": {"type": "string"}}, "required": ["ad_account_id", "page_id", "titulo", "corpo", "url_destino"]}}},
 ]
 
 
@@ -197,12 +195,35 @@ class ToolExecutor:
             files = {"filename": (os.path.basename(path), f, mimetypes.guess_type(path)[0] or "image/jpeg")}
             return self.api.post(f"{inp['ad_account_id']}/adimages", {}, files=files)
 
+    def __fazer_upload_video(self, inp):
+        path = inp["caminho_video"]
+        if not os.path.exists(path): return {"erro": f"Arquivo não encontrado: {path}"}
+        # Upload de vídeo no Meta usa um endpoint diferente e multipart
+        with open(path, "rb") as f:
+            data = {"name": inp.get("nome", os.path.basename(path))}
+            files = {"source": (os.path.basename(path), f, "video/mp4")}
+            return self.api.post(f"{inp['ad_account_id']}/advideos", data, files=files)
+
     def __criar_criativo(self, inp):
         link_data = {"message": inp["corpo"], "link": inp["url_destino"], "name": inp["titulo"], "call_to_action": {"type": inp.get("call_to_action", "LEARN_MORE")}}
         if inp.get("descricao"): link_data["description"] = inp["descricao"]
-        if inp.get("image_hash"): link_data["image_hash"] = inp["image_hash"]
-        story_spec = {"page_id": inp["page_id"], "link_data": link_data}
+        
+        story_spec = {"page_id": inp["page_id"]}
         if inp.get("instagram_account_id"): story_spec["instagram_actor_id"] = inp["instagram_account_id"]
+
+        if inp.get("video_id"):
+            # Estrutura para vídeo
+            story_spec["video_data"] = {
+                "video_id": inp["video_id"],
+                "message": inp["corpo"],
+                "call_to_action": {"type": inp.get("call_to_action", "LEARN_MORE"), "value": {"link": inp["url_destino"]}},
+                "title": inp["titulo"]
+            }
+        else:
+            # Estrutura para imagem
+            if inp.get("image_hash"): link_data["image_hash"] = inp["image_hash"]
+            story_spec["link_data"] = link_data
+
         return self.api.post(f"{inp['ad_account_id']}/adcreatives", {"name": f"Criativo - {inp['titulo'][:40]}", "object_story_spec": json.dumps(story_spec)})
 
     def __listar_anuncios(self, inp):
