@@ -177,9 +177,52 @@ class ToolExecutor:
     def __criar_conjunto(self, inp):
         targeting = {"geo_locations": {"countries": inp.get("paises", ["BR"])}, "age_min": inp.get("idade_min", 18), "age_max": inp.get("idade_max", 65)}
         if inp.get("generos"): targeting["genders"] = inp["generos"]
+        if inp.get("interesses_ids"): 
+            targeting["flexible_spec"] = [{"interests": [{"id": i} for i in inp["interesses_ids"]]}]
+            
         data = {"name": inp["nome"], "campaign_id": inp["campaign_id"], "daily_budget": str(inp["orcamento_diario_centavos"]), "optimization_goal": inp.get("objetivo_otimizacao", "LINK_CLICKS"), "billing_event": inp.get("evento_cobranca", "IMPRESSIONS"), "targeting": json.dumps(targeting), "status": "PAUSED", "start_time": datetime.now().strftime("%Y-%m-%dT%H:%M:%S") + "-0300"}
         if inp.get("page_id"): data["promoted_object"] = json.dumps({"page_id": inp["page_id"]})
         return self.api.post(f"{inp['ad_account_id']}/adsets", data)
+
+    def __buscar_interesses(self, inp):
+        return self.api.get("search", {"type": "adinterest", "q": inp["termo"]})
+
+    def __duplicar_conjuntos(self, inp):
+        # 1. Obter o conjunto original
+        orig = self.api.get(inp["adset_id"], {"fields": "name,campaign_id,targeting,optimization_goal,billing_event,promoted_object"})
+        if "id" not in orig: return {"erro": "Conjunto original não encontrado"}
+        
+        # 2. Obter os anúncios do conjunto original para replicar os criativos
+        ads = self.api.get(f"{inp['adset_id']}/ads", {"fields": "name,creative"})
+        
+        results = []
+        for i in range(inp["quantidade"]):
+            # Criar novo conjunto
+            new_data = {
+                "name": f"{orig['name']} (Duplicado {i+1})",
+                "campaign_id": orig["campaign_id"],
+                "daily_budget": str(inp.get("novo_orcamento_diario_centavos", 1000)), # Default R$10 se não informado
+                "targeting": json.dumps(orig["targeting"]),
+                "optimization_goal": orig["optimization_goal"],
+                "billing_event": orig["billing_event"],
+                "status": "PAUSED"
+            }
+            if "promoted_object" in orig: new_data["promoted_object"] = json.dumps(orig["promoted_object"])
+            
+            new_adset = self.api.post(f"{inp['ad_account_id']}/adsets", new_data)
+            
+            # Replicar anúncios no novo conjunto
+            if "id" in new_adset:
+                for ad in ads.get("data", []):
+                    self.api.post(f"{inp['ad_account_id']}/ads", {
+                        "name": ad["name"],
+                        "adset_id": new_adset["id"],
+                        "creative": json.dumps({"creative_id": ad["creative"]["id"]}),
+                        "status": "PAUSED"
+                    })
+            results.append(new_adset.get("id", "erro"))
+            
+        return {"ids_criados": results, "mensagem": f"{len(results)} conjuntos duplicados com sucesso."}
 
     def __editar_conjunto(self, inp):
         aid = inp.pop("adset_id"); data = {}
