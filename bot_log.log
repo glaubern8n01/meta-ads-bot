@@ -1,0 +1,2368 @@
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+
+==============================================================
+  LOG: META ADS AGENT - Powered by OpenAI & Telegram
+==============================================================
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 485, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 473, in main
+    agent_instance = MetaAdsAgent()
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 251, in __init__
+    self.contas = descobrir_contas(self.api)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 49, in descobrir_contas
+    print("\n\U0001f50d Descobrindo contas conectadas ao token...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f50d' in position 2: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "C:\Users\ADM\Desktop\trafegotelegram\meta_ads_agent.py", line 15, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
