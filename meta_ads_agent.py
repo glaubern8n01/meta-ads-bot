@@ -165,7 +165,7 @@ TOOLS = [
     {"type": "function", "function": {"name": "criar_criativo", "description": "Cria um criativo de anúncio (imagem ou vídeo + texto + link)", "parameters": {"type": "object", "properties": {"ad_account_id": {"type": "string"}, "page_id": {"type": "string"}, "titulo": {"type": "string"}, "corpo": {"type": "string"}, "descricao": {"type": "string"}, "url_destino": {"type": "string"}, "call_to_action": {"type": "string", "enum": ["LEARN_MORE","SHOP_NOW","SIGN_UP","CONTACT_US","GET_QUOTE","BOOK_NOW","DOWNLOAD","WATCH_MORE","APPLY_NOW","GET_OFFER"], "default": "LEARN_MORE"}, "image_hash": {"type": "string"}, "video_id": {"type": "string"}, "instagram_account_id": {"type": "string"}}, "required": ["ad_account_id", "page_id", "titulo", "corpo", "url_destino"]}}},
     {"type": "function", "function": {"name": "buscar_interesses", "description": "Busca IDs de interesses no Meta para segmentação (ex: 'Investimentos')", "parameters": {"type": "object", "properties": {"termo": {"type": "string"}}, "required": ["termo"]}}},
     {"type": "function", "function": {"name": "duplicar_conjuntos", "description": "Duplica um conjunto de anúncios múltiplas vezes com um novo orçamento", "parameters": {"type": "object", "properties": {"ad_account_id": {"type": "string"}, "adset_id": {"type": "string"}, "quantidade": {"type": "integer"}, "novo_orcamento_diario_centavos": {"type": "integer"}}, "required": ["ad_account_id", "adset_id", "quantidade"]}}},
-    {"type": "function", "function": {"name": "obter_insights", "description": "Obtém métricas de performance (CTR, CPC, Conversões) para análise estratégica", "parameters": {"type": "object", "properties": {"object_id": {"type": "string"}, "periodo": {"type": "string", "enum": ["hoje","ontem","7dias","30dias"], "default": "7dias"}}, "required": ["object_id"]}}},
+    {"type": "function", "function": {"name": "obter_insights", "description": "Obtém métricas de performance (CTR, CPC, Conversões) para análise estratégica", "parameters": {"type": "object", "properties": {"object_id": {"type": "string"}, "periodo": {"type": "string", "enum": ["hoje","ontem","7dias","14dias","30dias","mes_atual"], "default": "mes_atual"}}, "required": ["object_id"]}}},
     {"type": "function", "function": {"name": "pesquisar_biblioteca_anuncios", "description": "Busca anúncios na Biblioteca Pública do Meta para espionar concorrência", "parameters": {"type": "object", "properties": {"search_terms": {"type": "string"}, "country": {"type": "string", "default": "BR"}}, "required": ["search_terms"]}}},
 ]
 
@@ -475,6 +475,8 @@ REGRAS CRÍTICAS DE EXPERIÊNCIA DO USUÁRIO (Obrigatório seguir):
    - Em vez de pedir IDs (act_123), peça nomes de campanhas ou use os números da lista (1, 2, 3).
    - Seja proativo: se o usuário disser "analisar campanhas", e houver apenas 1 conta, pule a pergunta da conta e já liste as campanhas dessa conta.
 
+   - Siga esta ordem de períodos para sugerir ou usar: 1. Hoje | 2. Ontem | 3. Mês Atual | 4. Últimos 7 dias. Se o usuário disser apenas "analisar", traga o "Mês Atual" por padrão mas pergunte se ele quer ver outro período.
+
 HOJE: {datetime.now().strftime('%d/%m/%Y %H:%M')}"""
 
     def processar(self, mensagem):
@@ -549,11 +551,11 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         f"🚀 **Olá, {CLIENT_NAME}!**\n\n"
         "Sou seu consultor de tráfego inteligente. Já analisei sua estrutura e estou pronto para gerenciar seus anúncios!\n\n"
         f"{contas_info}\n\n"
-        "**O que deseja fazer agora?**\n"
-        "• Analisar o desempenho das campanhas atuais\n"
-        "• Criar um novo anúncio ou escala em lote\n"
-        "• Espionar a concorrência na biblioteca do Meta\n\n"
-        "Basta me dizer o que precisa!"
+        "**O que deseja fazer agora?**\n\n"
+        "1. Analisar o desempenho das campanhas atuais\n\n"
+        "2. Criar um novo anúncio ou escala em lote\n\n"
+        "3. Espionar a concorrência na biblioteca do Meta\n\n"
+        "Basta me enviar o número da opção ou me dizer o que precisa!"
     )
     await update.message.reply_text(welcome_text, parse_mode='Markdown')
 
