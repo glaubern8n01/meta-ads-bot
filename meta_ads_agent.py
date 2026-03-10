@@ -122,11 +122,25 @@ def descobrir_contas(api):
             ig_detail = api.get(ig["id"], {"fields": "id,username,name,followers_count,profile_picture_url"})
             contas["instagram_accounts"].append({**ig_detail, "pagina_id": page["id"], "pagina_nome": page["name"]})
 
+    # --- Filtro de Isolamento de Cliente ---
+    if ALLOWED_ACCOUNTS or (CLIENT_NAME and CLIENT_NAME != "Usuário"):
+        # Filtrar Contas de Anúncios (Sempre por ID se fornecido)
+        if ALLOWED_ACCOUNTS:
+            contas["ad_accounts"] = [a for a in contas.get("ad_accounts", []) 
+                                    if a["id"].replace("act_", "") in ALLOWED_ACCOUNTS or a["id"] in ALLOWED_ACCOUNTS]
+        
+        # Filtrar Páginas e IG (Pelo nome do cliente se não for 'Usuário')
+        if CLIENT_NAME != "Usuário":
+            contas["paginas"] = [p for p in contas.get("paginas", []) 
+                                 if CLIENT_NAME.lower() in p["name"].lower()]
+            contas["instagram_accounts"] = [ig for ig in contas.get("instagram_accounts", []) 
+                                            if CLIENT_NAME.lower() in ig.get("username", "").lower()]
+
     save_json(contas, "contas_descobertas.json")
     print(f"  ✅ Usuário: {me.get('name')} (ID: {me.get('id')})")
-    print(f"  ✅ Contas de anúncios: {len(contas['ad_accounts'])}")
-    print(f"  ✅ Páginas Facebook: {len(contas['paginas'])}")
-    print(f"  ✅ Contas Instagram: {len(contas['instagram_accounts'])}")
+    print(f"  ✅ Contas de anúncios filtradas: {len(contas['ad_accounts'])}")
+    print(f"  ✅ Páginas Facebook filtradas: {len(contas['paginas'])}")
+    print(f"  ✅ Contas Instagram filtradas: {len(contas['instagram_accounts'])}")
     return contas
 
 
