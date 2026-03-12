@@ -1,0 +1,13 @@
+.git
+.env
+__pycache__
+*.pyc
+bot_log.log
+dados_meta/
+chat_history.json
+daily_usage.json
+contas_descobertas.json
+.vscode
+.idea
+venv
+env/
