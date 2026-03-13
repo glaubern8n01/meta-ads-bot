@@ -1,4 +1,4 @@
-# Use official Python lightweight image
+# Dockerfile para Meta Ads Agent - Atualizado com Lógica de Isolamento de Bots
 FROM python:3.11-slim
 
 # Set working directory
