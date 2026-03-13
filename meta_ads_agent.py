@@ -118,11 +118,13 @@ def descobrir_contas(api):
         "descoberto_em": datetime.now().isoformat()
     }
 
-    for page in contas["paginas"]:
+    for page in contas.get("paginas", []):
+        if not isinstance(page, dict): continue
         ig = page.get("instagram_business_account")
-        if ig:
+        if ig and isinstance(ig, dict):
             ig_detail = api.get(ig["id"], {"fields": "id,username,name,followers_count,profile_picture_url"})
-            contas["instagram_accounts"].append({**ig_detail, "pagina_id": page["id"], "pagina_nome": page["name"]})
+            if "id" in ig_detail:
+                contas["instagram_accounts"].append({**ig_detail, "pagina_id": page["id"], "pagina_nome": page["name"]})
 
     # --- Filtro de Isolamento de Cliente ---
     if ALLOWED_ACCOUNTS or EXCLUDED_ACCOUNTS or (CLIENT_NAME and CLIENT_NAME != "Usuário"):
@@ -465,7 +467,7 @@ class MetaAdsAgent:
         return f"""Você é um especialista em Meta Ads com acesso total à conta via API.
 
 CONTA CONECTADA:
-👤 Usuário: {usuario.get('name','?')} (ID: {usuario.get('id','?')})
+👤 Usuário: {usuario.get('name','?') if isinstance(usuario, dict) else 'Desconhecido'} (ID: {usuario.get('id','?') if isinstance(usuario, dict) else '?'})
 {contas_str}
 
 SUAS CAPACIDADES: criar/editar/pausar/ativar/deletar campanhas, conjuntos de anúncios, criativos e anúncios para Facebook e Instagram. Obter métricas (CTR, CPC, CPM, conversões). Gerar relatórios em JSON.
@@ -492,6 +494,12 @@ REGRAS CRÍTICAS DE EXPERIÊNCIA DO USUÁRIO (Obrigatório seguir):
    - BIBLIOTECA DE ANÚNCIOS: Se a ferramenta `pesquisar_biblioteca_anuncios` retornar erro de permissão ou não encontrar nada, explique que o Meta restringe buscas automáticas para certos temas e forneça o link: https://www.facebook.com/ads/library
 
    - Siga esta ordem de períodos para sugerir ou usar: 1. Hoje | 2. Ontem | 3. Mês Atual | 4. Últimos 7 dias. Se o usuário disser apenas "analisar", traga o "Mês Atual" por padrão.
+ 
+ 8. REGRAS PARA CRIAÇÃO DE ESTRUTURA COMPLETA (FUNIL DE ANÚNCIOS):
+    - Campanha, Conjunto e Anúncio: Se o usuário pedir para "criar uma campanha" ou "subir um anúncio", você DEVE obrigatoriamente realizar o fluxo completo. 
+    - ABO vs CBO: Pergunte se o orçamento será na Campanha (CBO/Advantage) ou no Conjunto (ABO).
+    - CRIATIVO: Sempre peça o Título, Texto e a Mídia. Se o usuário enviou uma imagem/vídeo, use o caminho absoluto fornecido pelo sistema.
+    - PROATIVIDADE: Após criar a Campanha, pergunte IMEDIATAMENTE os dados do Conjunto de Anúncios e não pare até terminar o Anúncio.
 
 HOJE: {datetime.now().strftime('%d/%m/%Y %H:%M')}"""
 
@@ -538,13 +546,16 @@ HOJE: {datetime.now().strftime('%d/%m/%Y %H:%M')}"""
 agent_instance = None
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    if not agent_instance:
+        await update.message.reply_text("❌ Bot ainda não inicializado. Tente novamente em alguns segundos.")
+        return
+
     # Reset conversation when /start is hit
-    if agent_instance:
-         agent_instance.contas = descobrir_contas(agent_instance.api)
-         agent_instance.system_prompt = agent_instance._build_system_prompt()
-         agent_instance.historico = []
-         agent_instance.historico.append({"role": "system", "content": agent_instance.system_prompt})
-         agent_instance._salvar_historico()
+    agent_instance.contas = descobrir_contas(agent_instance.api)
+    agent_instance.system_prompt = agent_instance._build_system_prompt()
+    agent_instance.historico = []
+    agent_instance.historico.append({"role": "system", "content": agent_instance.system_prompt})
+    agent_instance._salvar_historico()
          
     # Gerar a saudação e lista de estrutura
     ad_accounts = agent_instance.contas.get("ad_accounts", [])
@@ -576,9 +587,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(welcome_text, parse_mode='Markdown')
     
     # CRITICAL: Injetar a mensagem de boas-vindas no histórico para o GPT ter contexto do menu
-    if agent_instance:
-        agent_instance.historico.append({"role": "assistant", "content": welcome_text})
-        agent_instance._salvar_historico()
+    agent_instance.historico.append({"role": "assistant", "content": welcome_text})
+    agent_instance._salvar_historico()
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     user_text = update.message.text
