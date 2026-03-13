@@ -37,6 +37,8 @@ SAVE_DIR.mkdir(exist_ok=True)
 # --- Configurações Comerciais (Isolamento e Limites) ---
 ALLOWED_ACCOUNTS = os.getenv("ALLOWED_ACCOUNTS", "").split(",")
 ALLOWED_ACCOUNTS = [a.strip() for a in ALLOWED_ACCOUNTS if a.strip()]
+EXCLUDED_ACCOUNTS = os.getenv("EXCLUDED_ACCOUNTS", "").split(",")
+EXCLUDED_ACCOUNTS = [a.strip() for a in EXCLUDED_ACCOUNTS if a.strip()]
 DAILY_MESSAGE_LIMIT = int(os.getenv("DAILY_MESSAGE_LIMIT", "100"))
 CLIENT_NAME = os.getenv("CLIENT_NAME", "Usuário") # Nome amigável do cliente (ex: Mecorcamp)
 CLIENT_ID = os.getenv("CLIENT_ID", "pessoal")    # Identificador interno
@@ -123,12 +125,21 @@ def descobrir_contas(api):
             contas["instagram_accounts"].append({**ig_detail, "pagina_id": page["id"], "pagina_nome": page["name"]})
 
     # --- Filtro de Isolamento de Cliente ---
-    if ALLOWED_ACCOUNTS or (CLIENT_NAME and CLIENT_NAME != "Usuário"):
+    if ALLOWED_ACCOUNTS or EXCLUDED_ACCOUNTS or (CLIENT_NAME and CLIENT_NAME != "Usuário"):
         # Filtrar Contas de Anúncios (Sempre por ID se fornecido)
         if ALLOWED_ACCOUNTS:
             contas["ad_accounts"] = [a for a in contas.get("ad_accounts", []) 
                                     if a["id"].replace("act_", "") in ALLOWED_ACCOUNTS or a["id"] in ALLOWED_ACCOUNTS]
         
+        # Filtro de Contas Excluídas (Blacklist)
+        if EXCLUDED_ACCOUNTS:
+            contas["ad_accounts"] = [a for a in contas.get("ad_accounts", []) 
+                                    if a["id"].replace("act_", "") not in EXCLUDED_ACCOUNTS and a["id"] not in EXCLUDED_ACCOUNTS]
+            contas["paginas"] = [p for p in contas.get("paginas", []) 
+                                 if p["id"] not in EXCLUDED_ACCOUNTS]
+            contas["instagram_accounts"] = [ig for ig in contas.get("instagram_accounts", []) 
+                                             if ig["id"] not in EXCLUDED_ACCOUNTS]
+
         # Filtrar Páginas e IG (Pelo nome do cliente se não for 'Usuário')
         if CLIENT_NAME != "Usuário":
             contas["paginas"] = [p for p in contas.get("paginas", []) 
@@ -475,7 +486,6 @@ REGRAS CRÍTICAS DE EXPERIÊNCIA DO USUÁRIO (Obrigatório seguir):
 5. Campanhas novas sempre nascem PAUSED. Antes de de deletar, confirme. Orçamentos em centavos (R$50=5000). Responda sempre de forma enumerada e espaçada.
 6. SEMPRE TENTE TRAZER O MAXIMO DE CAMPANHAS POSSIVES PARA A LISTAGEM PARA ENCONTRAR A CAMPANHA CORRETA, NUNCA TRUNQUE PARA TOP 5 OU TOP 10. Traga todas que tiverem o status ou tudo se não tiver nada filtrando.
 7. REGRAS PARA CLIENTES LEIGOS (Mecorcamp):
-   - Se houver apenas 1 Conta de Anúncios na listagem acima, considere-a SELECIONADA AUTOMATICAMENTE. Nunca pergunte qual conta ou peça o ID se houver apenas uma opção.
    - REAÇÃO A NÚMEROS: Se o usuário digitar apenas um número (ex: "1"), verifique qual era a opção correspondente no último menu e EXECUTE a ferramenta necessária IMEDIATAMENTE.
    - Forneça sempre o período: Ao mostrar métricas, diga explicitamente: "Aqui estão os resultados de [PERÍODO]".
    - Se o usuário pedir "hoje", "ontem" ou outro período, CHAME a ferramenta `obter_insights` de novo com o novo parâmetro, mesmo que tenha acabado de mostrar outro período. Não diga "já forneci", apenas atualize os dados.
@@ -536,7 +546,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
          agent_instance.historico.append({"role": "system", "content": agent_instance.system_prompt})
          agent_instance._salvar_historico()
          
-    # Gerar a saudação e lista de estrutura (Simplificado para cliente único)
+    # Gerar a saudação e lista de estrutura
     ad_accounts = agent_instance.contas.get("ad_accounts", [])
     if len(ad_accounts) == 1:
         contas_info = f"🎯 Conectado à conta: **{ad_accounts[0].get('name')}**"
